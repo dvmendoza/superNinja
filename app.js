@@ -27,7 +27,6 @@ mendo.showStats()
 
 class Sensei extends Ninja{
     constructor(name, wisdom = 10){
-        super(name, 200, 10, 10)
         this.wisdom = wisdom;
     }
 
